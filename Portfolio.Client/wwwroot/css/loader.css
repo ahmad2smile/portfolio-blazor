@@ -1,0 +1,54 @@
+html {
+	width: 100%;
+	min-height: 100%;
+	background: linear-gradient(-45deg, #001d3a, #e9f0f7);
+	font-family: Arial, Serif, Sans-Serif;
+}
+
+body {
+	margin: 0;
+}
+
+app {
+	display: block;
+	margin: 10px;
+}
+
+.loading {
+	position: fixed;
+	left: 23%;
+	top: 50%;
+	width: 50%;
+	height: 2px;
+	background: #fff;
+	overflow: hidden;
+}
+
+@keyframes loading {
+	50% {
+		transform: translateX(0%);
+	}
+	100% {
+		transform: translateX(300%);
+	}
+}
+
+.loading:before {
+	content: "";
+	position: absolute;
+	left: 40%;
+	top: 0;
+	width: 33%;
+	height: 100%;
+	transform: translateX(-300%);
+	background: #001d3a;
+	animation: loading 1.5s linear infinite;
+}
+
+.text {
+	position: absolute;
+	top: 45%;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+}

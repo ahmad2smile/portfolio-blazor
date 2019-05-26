@@ -1,20 +1,4 @@
-﻿html {
-	width: 100%;
-	min-height: 100%;
-	background: linear-gradient(-45deg, #001d3a, #e9f0f7);
-	font-family: Arial, Serif, Sans-Serif;
-}
-
-body {
-	margin: 0;
-}
-
-app {
-	display: block;
-	margin: 10px;
-}
-
-.dashboard-container {
+﻿.dashboard-container {
 	background: #fff;
 	box-shadow: 0 1px 15px rgba(27, 31, 35, 0.15);
 	display: grid;
