@@ -16,8 +16,11 @@ app {
 
 .loading {
 	position: fixed;
-	left: 23%;
-	top: 50%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
 	width: 50%;
 	height: 2px;
 	background: #fff;
@@ -51,4 +54,9 @@ app {
 	color: #fff;
 	width: 100%;
 	text-align: center;
+}
+
+.content-body {
+	max-width: 1100px;
+	margin: 0 auto;
 }
