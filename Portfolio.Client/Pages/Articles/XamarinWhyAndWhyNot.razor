@@ -3,35 +3,32 @@
 <div class="article-container">
     <h1 class="heading">Xamarin Why & Why Not</h1>
     <div class="article-detail">
-        <div class="article-intro">
-            <b>
-            Some light on Xamarin through a frontend perspective in the space of React Native and Flutter. Just to put it out there I might have a bias in my analysis I've worked on Cordova/Ionic, React Native and Xamarin Forms on job.
-        </b>
-        <p>
-            Xamarin got a it's self into a bit of a pickle with React Native, previously with Ionic/Cordova and now Flutter. The predicament for Xamarin is that It's Cross platform in the world of RN world.
-            At this point you might say what's wrong with that, cross platform seems to be on the rise. All 3 giants came out with their own solution for cross platform, So what this predicament you speak of 'Dear Sir'?
-        </p>
-        <p>
-            Well, the thing is Xamarin doesn't fit in React Native/Flutter box. It's not exactly a cross platform in a sense React Native or Flutter is. Xamarin mainly offers Xamarin.Android and Xamarin.iOS. These are the project which define this beast. Yes, There is Xamarin Forms where you can write the 100% cross platform code, But Xamarin isn't used in that way.
-        </p>
-        <p>
-            In Xamarin echo system you can just create a Xamarin.iOS project and just work on it without a worry in the world. So, is the Xamarin.Android. Xamarin Forms is just a library that can sit on top of Xamarin iOS and Android. It builds and works just like any other cross platform solution but that's not where the Power of Xamarin comes from. Xamarin isn't like any other cross platform solution cause It offer 1 language to write to iOS and Android (and more) but rather then just providing components, Xamarin prides it's self in providing API.
-        </p>
         <b>
-            Xamarin is an API wrapper in C# for iOS & Android (and other platforms).
+            Some light on Xamarin through a frontend perspective in the space of React Native and Flutter. Just to put it out there I might have a bias in my analysis but I've also worked on Cordova/Ionic, React Native and Xamarin Forms on job.
         </b>
-        <p>
-            Yes, that's right. It's mainly a wrapper nothing else. Everything else is used, built and ran exactly the same. You have your MainActivity.cs file and your AppDelegate.cs files. This gives you freedom to write as much as cross platform code you want in Xamarin Forms then break out of it and native APIs directly without any restriction.
-            This is why Xamarin has to be treated differently.
-        </p>
-        <p>
-            To to do the same job in any other cross platform Tech you must learn at least 3 language. First one would be the Dart in case of Flutter or JS for React Native and top of this Objective-C or Swift and Java or Kotlin. This is not the good old when you needed 1 language for every new thing you wanted to do. Now languages are going more multi purpose then ever. You don't need to look into 6 different languages, You just need right tools and 1 language.
-        </p>
-        </div>
         <div class="article-section">
-            <h2>TC39</h2>
+            <h2>Why</h2>
             <p>
-                For my those frontend compatriot who say 'C#... No noo'. I got one word for you TC39. It's a committee of bad boys who standard standardize spec for programming languages which choose to follow it. In short C# and JavaScript both follow TC39 standard. So for frontend developers it's more easier to learn C# then it is to learn to center a div.
+                Xamarin got a it's self into a bit of a pickle with React Native, previously with Ionic/Cordova and now Flutter. The predicament for Xamarin is that It's not really a cross platform but behaves like one. It got Xamarin Forms which is a cross platform solution but it also provides all of the native APIs (mind the edge cases) are first class citizen in Xamarin environment.
+            </p>
+            <p>
+                The thing is Xamarin doesn't fit in React Native/Flutter box. It's not exactly a cross platform in a sense as are React Native and Flutter. Xamarin mainly offers Xamarin.Android and Xamarin.iOS. These are the project which define Xamarin best. You can write you entire Android App and iOS App separately, but using the same language with 100% of the platform APIs. Now that's some power.
+            </p>
+            <div class="image-container">
+                <img src="/img/power_meme.png"  />
+            </div>
+            <p>
+                In Xamarin ecosystem you can just create a Xamarin.iOS project and just work on it without a worry in the world. So, is the Xamarin.Android. Xamarin Forms is just a library that can sit on top of Xamarin iOS and Android. It builds and works just like any other cross platform solution but that's not where the Power of Xamarin comes from. Xamarin isn't like any other cross platform solution cause It offer 1 language to write to iOS and Android (and more) but rather then just providing components, Xamarin prides it's self in providing API.
+            </p>
+            <b>
+                Xamarin is an API wrapper in C# for iOS & Android (and other platforms).
+            </b>
+            <p>
+                Yes, that's right. It's mainly a wrapper nothing else. Everything else is used, built and ran exactly the same (in crude terms). You have your MainActivity.cs file and your AppDelegate.cs files. This gives you freedom to write as much as cross platform code you want in Xamarin Forms then break out of it and write native APIs directly without any restriction.
+                This is why Xamarin has to be treated differently.
+            </p>
+            <p>
+                To to do the same job in any other cross platform Tech you must learn at least 3 language. First one would be the Dart in case of Flutter or JS for React Native and on top of this Objective-C or Swift and Java or Kotlin. This is not the good old days when you needed a new language for every new thing you wanted to do. Now languages and echo systems around them are going more multi purpose than ever. You don't need to look into 6 different languages, You just need right tools and 1 language.
             </p>
         </div>
         <div class="article-section">
@@ -40,7 +37,7 @@
                 Now some people might be old enough here to have some (maybe a lot) of bad memories associated with Microsoft. Well, Yes those are all true but those were the dark days when people fought over platforms but now no one really cares. Now it's all about the services and Microsoft is all in on it.
             </p>
             <p>
-                I'm not gonna argue that Microsoft is now all warm and cuddly, even though now they are and becoming more and more like this towards developers and hippie hacksters everyday, No! I'm gonna argue that Microsoft wants to build a services first future just like almost every other giant, for it's self mainly from Azure. That's really good for us. You might ask why? Because It's in Microsoft's interest to enable developers to build things which consume these services.
+                I'm not gonna argue that Microsoft is now all warm and cuddly, even though now they are and becoming more and more like this towards developers and hippie hacksters everyday, No! I'm gonna argue that Microsoft wants to build a services first future just like almost every other giant, for its self mainly from Azure. That's really good for us. You might ask why? Because It's in Microsoft's interest to enable developers to build things which consume its services.
             </p>
             <p>
                 Microsoft does truly want happy developers. Who could've thought you could run
@@ -56,7 +53,7 @@
                 <li>Azure Blob Storage is free (basic tier)</li>
                 <li>PluralSlight, Data Camp, Opsgility subscriptions free (much more)</li>
             </ul>
-            <p>So, maybe we can give Microsoft a try.</p>
+            <p>It's a new Microsoft. So, maybe we can give Microsoft a try and look what they got.</p>
         </div>
     </div>
 </div>
