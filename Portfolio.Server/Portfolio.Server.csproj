@@ -18,10 +18,10 @@
     <ProjectReference Include="..\Portfolio.Client\Portfolio.Client.csproj" />
     <ProjectReference Include="..\Portfolio.Shared\Portfolio.Shared.csproj" />
     <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
-    <Watch Include="**\*.cs"/>
-    <Watch Include="**\*.cshtml"/>
-    <Watch Include="**\*.razor"/>
-    <Watch Include="**\*.css"/>
+    <Watch Include="**\*.cs" />
+    <Watch Include="**\*.cshtml" />
+    <Watch Include="**\*.razor" />
+    <Watch Include="**\*.css" />
   </ItemGroup>
 
 </Project>

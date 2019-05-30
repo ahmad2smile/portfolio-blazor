@@ -1,0 +1,11 @@
+
+code {
+    width: 100%;
+    display: block;
+    line-height: 30px;
+    padding-left: 10px;
+    background: #888;
+    border-radius: 5px;
+    margin: 10px;
+    color: #fff;
+}
